@@ -1,0 +1,6 @@
+{
+  artist(id : "100") {
+    id
+    name
+  }
+}

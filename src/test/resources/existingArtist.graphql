@@ -1,0 +1,9 @@
+{
+  artist(id : "01") {
+    id
+    name
+    albums {
+      year
+    }
+  }
+}
