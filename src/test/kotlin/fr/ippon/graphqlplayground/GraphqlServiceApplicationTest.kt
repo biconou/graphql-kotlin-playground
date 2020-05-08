@@ -19,7 +19,6 @@ class GraphqlServiceApplicationTest {
 
     @Test
     fun existingArtist() {
-
         // When
         val response = graphQLTestTemplate.postForResource("existingArtist.graphql")
 
@@ -38,6 +37,9 @@ class GraphqlServiceApplicationTest {
                     },
                     {
                       "year": 1965
+                    },
+                    {
+                      "year": 1969
                     }
                   ]
                 }
@@ -49,7 +51,6 @@ class GraphqlServiceApplicationTest {
 
     @Test
     fun nonExistingArtist() {
-
         // When
         val response = graphQLTestTemplate.postForResource("nonExistingArtist.graphql")
 

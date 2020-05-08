@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>GraphQL Kotlin playground</name>
-    <description>Demo project to bootstrap a GraphSQL service implemented with SpringBoot and Kotlin</description>
+    <description>Demo project to bootstrap a GraphSQL API implemented with SpringBoot and Kotlin</description>
 
     <properties>
         <java.version>1.8</java.version>

@@ -1,4 +1,4 @@
-package fr.ippon.graphqlplayground.music.artist
+package fr.ippon.graphqlplayground.musiclibrary
 
 import org.springframework.stereotype.Component
 
@@ -9,7 +9,7 @@ class ArtistRepository {
         var foundArtist: Artist? = null
         when (id) {
             "01" -> foundArtist = Artist(id = "01", name = "The Beatles")
-            "02" -> foundArtist = Artist(id = "02", name = "The Rolling Stones")
+            "02" -> foundArtist = Artist(id = "02", name = "Queen")
         }
         return foundArtist
     }
